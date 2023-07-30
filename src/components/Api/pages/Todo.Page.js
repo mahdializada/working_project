@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import { useQuery } from '@tanstack/react-query'
-import { Card, Center, LoadingOverlay, Pagination, Select, Table, Text } from '@mantine/core';
+import { Card, Center, CheckIcon, LoadingOverlay, Pagination, Select, Table, Text } from '@mantine/core';
 import { getTodo } from './TodoApi';
 import { Link } from 'react-router-dom';
+import { IconCheck, IconX } from '@tabler/icons-react';
 
 
 function TodoPage() {
@@ -21,7 +22,7 @@ function TodoPage() {
   return (
     <div>
       <Link to="/todo">
-        <Text>Visit your profile</Text>
+        <Text>Visit ToDo page</Text>
       </Link>
       <Text>Todos</Text>
      <Select
@@ -42,7 +43,8 @@ function TodoPage() {
         <tr>
           <th>ID</th>
           <th>Title</th>
-          <th>Compelted</th>
+          {/* <th>Compelted</th> */}
+          <th>Action</th>
         </tr>
       </thead>
       <tbody>
@@ -53,7 +55,8 @@ function TodoPage() {
                     <tr key={value.id}>
                         <td>{value.id}</td>
                         <td>{value.title}</td>
-                        <td>{value.completed ? "Completed" : "In Completed"}</td>
+                        <td><Link to={`/post/${value.id}`}>More</Link></td>
+                        {/* <td>{value.completed ? <IconCheck/> : <IconX />}</td> */}
                     </tr>
                     )
             })

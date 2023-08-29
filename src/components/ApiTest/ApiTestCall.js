@@ -38,4 +38,4 @@ function ApiTestCall() {
 }
 
 export default ApiTestCall
-git commit --allow-empty -m "Insert Column"
+

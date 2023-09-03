@@ -38,19 +38,4 @@ function ApiTestCall() {
 }
 
 export default ApiTestCall
-git commit --allow-empty -m "New changes"
-git commit --allow-empty -m "New changes"
-git commit --allow-empty -m "New changes"
-git commit --allow-empty -m "New changes"
-git commit --allow-empty -m "New changes"
-git commit --allow-empty -m "New changes"
-git commit --allow-empty -m "New changes"
-git commit --allow-empty -m "New changes"
-git commit --allow-empty -m "New changes"
-git commit --allow-empty -m "New changes"
-git commit --allow-empty -m "New changes"
-git commit --allow-empty -m "New changes"
-git commit --allow-empty -m "New changes"
-git commit --allow-empty -m "New changes"
-git commit --allow-empty -m "New changes"
-git commit --allow-empty -m "New changes"
+

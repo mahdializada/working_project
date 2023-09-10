@@ -39,3 +39,7 @@ function ApiTestCall() {
 
 export default ApiTestCall
 
+
+git commit --allow-empty -m newchages
+git commit --allow-empty -m insert column
+git commit --allow-empty -m create  reactRouter
